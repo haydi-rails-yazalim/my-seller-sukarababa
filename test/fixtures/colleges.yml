@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price: 1.5
+  country: MyString
+  language: MyString
+  level: 1
+  boarding: MyString
+
+two:
+  price: 1.5
+  country: MyString
+  language: MyString
+  level: 1
+  boarding: MyString

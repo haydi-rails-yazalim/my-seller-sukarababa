@@ -1,0 +1,9 @@
+ <% @colleges.each do |college| %>
+<%= college.price %>
+<%= college.level %>
+<%= college.country %>
+<%= college.boarding %>
+<%= college.language %>
+<%= link_to "show",college_path(college) %>
+<%= link_to "card",add_card_path(college) %>
+ <% end %>
